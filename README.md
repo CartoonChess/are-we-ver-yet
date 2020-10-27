@@ -1,7 +1,7 @@
 # Are We Ver Yet? <img width="40" alt="Bot avatar" src="https://user-images.githubusercontent.com/43363630/97311813-1d4ba080-18a8-11eb-904c-d8eb58e55a11.png">
 Check whether (a different) Discord bot is verified or not. [Invite the bot to your server.](https://discord.com/oauth2/authorize?scope=bot&client_id=770471404276547584&permissions=536996864)
 
-**NOTE: [The bot](https://impostor.molenzwiebel.xyz/) which this one checks is currently hard-coded. See [to do](#planned-features) for more.**
+**NOTE: [The bot](https://impostor.molenzwiebel.xyz/) which this one checks is currently hard-coded. See the [planned features](#planned-features) for more.**
 
 ## Usage
 ### The easy way
@@ -10,9 +10,9 @@ You can [add this bot](https://discord.com/oauth2/authorize?scope=bot&client_id=
 ### Self-hosted
 If you want to host this bot by yourself, keep in mind the following:
 * Create a [Discord application](https://discord.com/developers/applications) with a bot
-* Rename `[example.env](https://github.com/CartoonChess/are-we-ver-yet/blob/master/example.env)` to `.env` and provide the bot's ID, token, and your Discord ID
+* Rename [`example.env`](https://github.com/CartoonChess/are-we-ver-yet/blob/master/example.env) to `.env` and provide the bot's ID, token, and your Discord ID
 * Install [dependencies](#dependencies) for node
-* Run `[index.js](https://github.com/CartoonChess/are-we-ver-yet/blob/master/index.js)`
+* Run [`index.js`](https://github.com/CartoonChess/are-we-ver-yet/blob/master/index.js)
 #### Dependencies
 The main requirements are [Node.js](https://github.com/nodejs/node) and [discord.js](https://github.com/discordjs/discord.js). More dependencies can be found in the [package file](https://github.com/CartoonChess/are-we-ver-yet/blob/master/package.json).
 
